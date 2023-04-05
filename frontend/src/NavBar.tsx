@@ -15,7 +15,7 @@ function Navbar() {
             <a href="/MyPodcasts">My Podcasts</a>
           </li>
           <li>
-            <a href="/Movies">Movie Database</a>
+            <a href="/movie/MovieList">Movie Database</a>
           </li>
         </ul>
       </nav>
