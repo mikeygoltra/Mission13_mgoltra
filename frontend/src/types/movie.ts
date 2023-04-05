@@ -1,3 +1,5 @@
+//match up the fields in the model
+
 export type Movie = {
   movieId: number;
   category: string;

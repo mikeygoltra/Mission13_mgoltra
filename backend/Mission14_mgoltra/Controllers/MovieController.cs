@@ -15,6 +15,7 @@ namespace Mission14_mgoltra.Controllers
 
         }
 
+        //query out the right rows
         public IEnumerable<Movie> Get()
         {
             var x = context.Movies

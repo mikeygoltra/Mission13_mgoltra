@@ -3,6 +3,7 @@ import '../App.css';
 import { Movie } from '../types/movie';
 
 function MovieList() {
+  //fetch the data
   const [movieData, setMovieData] = useState<Movie[]>([]);
 
   const fetchMovie = async () => {
@@ -12,6 +13,8 @@ function MovieList() {
   };
 
   fetchMovie();
+
+  //create the table
 
   return (
     <>

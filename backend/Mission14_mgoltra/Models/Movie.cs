@@ -4,6 +4,8 @@ namespace Mission14_mgoltra.Models
 {
     public class Movie
     {
+        //model for the movie
+        //make the MovieId the key
         [Key]
         public int MovieId { get; set; }
         public string Category { get; set; }
